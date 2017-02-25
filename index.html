@@ -1,9 +1,77 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>test</title>
+	<title>Dogs</title>
 </head>
 <body>
-<h1>this is to test the page</h1>
+<img src="Dog1.jpg" alt="Dog" />
+<h1>Dog Breeds</h1>
+<p>Learn what dog breed may be best for you!</p>
+<h2>Table about dog Breeds</h2>
+<p>*This is only about a few dog breeds-sorry if your dog breed is not listed</p>
+<table border=1>
+	<tr>
+		<th>Dog Breed</th>
+		<th>Size (lbs)</th>
+		<th>Shed (Y/N)</th>
+	</tr>
+	<tr>
+		<td>Breed 1</td>
+		<td>10-15</td>
+		<td>No</td>
+	</tr>
+	<tr>
+		<td>Breed 2</td>
+		<td>30-50</td>
+		<td>Yes</td>
+	</tr>
+	<tr>
+		<td>Breed 3</td>
+		<td>75+</td>
+		<td>Yes</td>
+	</tr>
+</table>
+
+<h3>Why Dogs are Great</h3>
+
+<ul>
+	<li>Dogs are truely mans best friend</li>
+	<li>They'll greet you when you get home</li>
+	<li>Unconditonal love</li>
+</ul>
+
+<h4>Dog Questionaire</h4>
+
+<form action="submit_page.html" method="post">
+  <fieldset>
+   
+<div>
+      <label>Full name:</label>
+      <input type="text" name="fullname">
+    </div> 
+  <div>
+    <label>Email:</label>
+    <input type="email" name="email">
+  </div>
+
+<div>
+      <label>Prefered Dog Size:</label>
+      <select name="Size of dog">
+        <option value="Small">Small</option>
+        <option value="Medium">Medium</option>
+        <option value="Large">Large</option>
+      </select>
+    </div>
+
+    <div>
+      <input type="checkbox" name="shed-yes/no" value="agree">
+       Is having a dog that doesn't shed important?
+    </div>
+
+</fieldset>
+ <button type="submit">Submit</button>
+</form>
+
+</ul>
 </body>
 </html>
