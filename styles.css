@@ -1,3 +1,39 @@
 body {
-	background: blue;
+	background-color: pink;
+}
+
+h1 {
+	border: 2px solid;
+	background-color: yellow;
+	padding: 5px;
+}
+
+h2 {
+	margin: 5px;
+	background-color:purple;
+	font-family: Helvetica;x
+}
+
+footer {
+	position: relative;
+	left: 50%;
+}
+.list-header {
+	background-color: red;
+}
+
+#list {
+	background-color: black;
+}
+
+table {
+	background-image: url("https://s-media-cache-ak0.pinimg.com/736x/29/1d/01/291d019b8b4c74c6b49b222ccab96f86.jpg")
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: yellow;
 }
