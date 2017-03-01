@@ -1,7 +1,3 @@
-body {
-	background-color: pink;
-}
-
 h1 {
 	border: 2px solid;
 	background-color: yellow;
@@ -10,8 +6,6 @@ h1 {
 
 h2 {
 	margin: 5px;
-	background-color:purple;
-	font-family: Helvetica;x
 }
 
 footer {
@@ -20,10 +14,17 @@ footer {
 }
 .list-header {
 	background-color: red;
+	font-weight: bold;
+	border: 2px solid;
+	font-family: Helvetica;
+
+
 }
 
 #list {
-	background-color: black;
+	padding: 20px;
+	border: 2px solid;
+	font-family: Helvetica;
 }
 
 table {
@@ -35,12 +36,11 @@ a:link {
 }
 
 a:visited {
-    color: yellow;
+    color: pink;
 }
 
 @media screen and (max-width: 500px) {
   body {
-    background-color: hotpink;
     font-size: 75%;
   }
 }
