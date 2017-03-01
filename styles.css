@@ -2,6 +2,7 @@ h1 {
 	border: 2px solid;
 	background-color: yellow;
 	padding: 5px;
+	font-size: 5em;
 }
 
 h2 {
@@ -17,6 +18,7 @@ footer {
 	font-weight: bold;
 	border: 2px solid;
 	font-family: Helvetica;
+	color: white;
 
 
 }
